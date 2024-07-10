@@ -6,3 +6,4 @@ langchain-google-genai
 flask
 python-dotenv
 PyPDF
+-e .
