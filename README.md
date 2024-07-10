@@ -23,3 +23,20 @@ pip install -r requirements.txt
 PINECONE_API_KEY=""
 GOOGLE_API_KEY=""
 ```
+
+### Run the following code to create embeddings in your pinecone vectorstore
+```bash
+python store_index.py
+```
+
+### To run the medical-chatbot
+```bash
+flask run
+```
+
+## Techstack used
+- Python
+- Langchain
+- Flask
+- Pinecone
+- Google Gemini
